@@ -1,0 +1,7 @@
+CREATE TABLE main_table (
+    user_id INT NOT NULL,
+    timestamp TIMESTAMP NOT NULL,
+    status INT NOT NULL,
+    PRIMARY KEY (user_id, timestamp)
+);
+SELECT * FROM main_table;
